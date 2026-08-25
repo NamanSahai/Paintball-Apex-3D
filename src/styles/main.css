@@ -34,6 +34,10 @@ html, body {
   color: var(--text-main);
 }
 
+.hidden {
+  display: none !important;
+}
+
 /* 3D Game Container */
 #game-container {
   position: absolute;
@@ -1972,6 +1976,12 @@ kbd {
   align-items: center;
   justify-content: center;
   z-index: 100;
+}
+
+.mp-scoreboard-modal.hidden,
+.mp-respawn-screen.hidden,
+.mp-chat-form.hidden {
+  display: none !important;
 }
 
 .mp-scoreboard-card {
